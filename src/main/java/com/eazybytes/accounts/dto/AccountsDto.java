@@ -12,7 +12,6 @@ public class AccountsDto {
     private Long accountNumber;
 
     @NotEmpty(message = "AccountType can not be null or Empty")
-    @NotEmpty(message = "AccountType can not be null or Empty")
     private String accountType;
 
     @NotEmpty(message = "branchAddress can not be null or Empty")
